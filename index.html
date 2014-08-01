@@ -7,6 +7,7 @@
         <title>VizSec Gama 2014</title>
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -30,8 +31,9 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="data.html">Data</a></li>
+                        <li><a href="paper.html">Paper</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
@@ -41,13 +43,33 @@
         <!-- Nav Bar End-->
 
         <div class="container">
-             <h1>Hello, world!</h1>
+            <h1>Using Maps to Show the Internet AS Topology</h1>
+            <div id="abstract">
+                We present a novel technique, iMaps, for visualizing the Internet topology based on 
+                Autonomous System (AS) connections and analyzing traffic metrics and anomalies. 
+                The main component of this visualization technique is a geographic-like map that depicts 
+                the AS topology. This map represents world countries as contiguous regions of the plane, 
+                and ASes and their connections with a node-link diagram. Shape, dimension and boundaries 
+                of the countries do not reflect geography, but rather analogue characteristics in the Internet
+                space. Heatmaps are then overlaid to visualize various types of dynamic data, 
+                such as aggregate network activity statistics. To analyze AS nodes and detect network anomalies,
+                IP traffic is aggregated into AS nodes and we employ analysis per-AS, so results 
+                (and AS heatmap colors) indicate the presence (or not) of anomalies per AS.
+            </div>
+        </div>
 
+        <div class="container">
+            <!-- 4:3 aspect ratio -->
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe src="http://www.youtube.com/embed/dW7n2UP60bk" frameborder="0" allowfullscreen>
+              </iframe>
+            </div>
         </div>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>

@@ -2,3 +2,5 @@
     width:900px;
     padding:20px 0 20px;
 }
+
+.gallery_title { text-transform:capitalize; }

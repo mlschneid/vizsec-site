@@ -7,12 +7,14 @@
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
+        <link href="video-js/video-js.css" rel="stylesheet" type="text/css">
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+        
     </head>
     
     <body>
@@ -56,28 +58,70 @@
                 <p>In this animation, we can see the Code-Red Worm spread quickly from the US to the right-hand side of the map.
                 By 2001-04-07-19 09:24:26 (middle of the video), we can see that nearly the entire network has been infected.
                 </p>
-                <div class="embed-responsive embed-responsive-16by9">
-                <iframe width="1280" height="720" src="http://www.youtube.com/embed/zGa1iDHNd4g?hd=1&vq=hd1080"
-                    frameborder="0" allowfullscreen></iframe>
-                </div>
+                <video class="video-js vjs-default-skin img img-responsive" controls preload="none" width="853" height="480" data-setup="{}">
+                    <source src="animations/30minCumulativeShort.mp4" type='video/mp4' />
+                    <source src="animations/30minCumulativeShort.webm" type='video/webm' />
+                    <p class="vjs-no-js">To view this video please enable JavaScript, 
+                    and consider upgrading to a web browser that 
+                        <a href="http://videojs.com/html5-video-support/" target="_blank">
+                            supports HTML5 video
+                        </a>
+                    </p>
+
+                </video>
+
                 <br/>
 
             <h4>60 Minute Interval</h4>
                 <p>This animation shows the same information seen in the previous video but in larger steps. The infection quickly spreads across the network.</p>
-                <div class="embed-responsive embed-responsive-16by9">
-                <iframe width="1280" height="720" src="http://www.youtube.com/embed/aWfVKK2Chkk?hd=1&vq=hd1080"
-                    frameborder="0" allowfullscreen></iframe>
-                </div>
                 <br/>
+                <video class="video-js vjs-default-skin img img-responsive" controls preload="none" width="853" height="480" data-setup="{}">
+                    <source src="animations/hourCumulativeShort.mp4" type='video/mp4' />
+                    <source src="animations/hourCumulativeShort.webm" type='video/webm' />
+                    <p class="vjs-no-js">To view this video please enable JavaScript, 
+                    and consider upgrading to a web browser that 
+                        <a href="http://videojs.com/html5-video-support/" target="_blank">
+                            supports HTML5 video
+                        </a>
+                    </p>
 
+                </video>
+
+            <h4>Five-Minute Intervals, followed by 30 Minute Interval</h4>
+                <p>This animations shows the worm spreading at different speeds. For the first minute and 26 seconds of the video, we see 
+                the worm spreading at five minute intervals. After, the worms spreads across the network in 30 minute intervals.</p>
+                <video class="video-js vjs-default-skin img img-responsive" controls preload="none" width="853" height="480" data-setup="{}">
+                    <source src="animations/5min30minCumulative.mp4" type='video/mp4' />
+                    <source src="animations/5min30minCumulative.webm" type='video/webm' />
+                    <p class="vjs-no-js">To view this video please enable JavaScript, 
+                    and consider upgrading to a web browser that 
+                        <a href="http://videojs.com/html5-video-support/" target="_blank">
+                            supports HTML5 video
+                        </a>
+                    </p>
+
+                </video>
+
+            <br/>
+
+                <!--
             <h4>60 One-Minute Intervals, followed by 60 Minute Interval</h4>
                 <p>This animations shows the worm spreading at different speeds. For the first minute and 26 seconds of the video, we see 
                 the worm spreading at one minute intervals. After, the worms spreads across the network in 60 minute intervals.</p>
-                <div class="embed-responsive embed-responsive-16by9">
-                <iframe width="1280" height="720" src="http://www.youtube.com/embed/c4jgJyw0Dpk?hd=1&vq=hd1080"
-                    frameborder="0" allowfullscreen></iframe>
-                </div>
+                <video class="video-js vjs-default-skin img img-responsive" controls preload="none" width="853" height="480" data-setup="{}">
+                    <source src="animations/OneMinuteHourCumulative.mp4" type='video/mp4' />
+                    <source src="animations/OneMinuteHourCumulative.webm" type='video/webm' />
+                    <p class="vjs-no-js">To view this video please enable JavaScript, 
+                    and consider upgrading to a web browser that 
+                        <a href="http://videojs.com/html5-video-support/" target="_blank">
+                            supports HTML5 video
+                        </a>
+                    </p>
+
+                </video>
+
                 <br/>
+                -->
 
         </div>
         <div class="container">
@@ -89,18 +133,31 @@
                 <h4>30 Minute Interval</h4>
                 <p>In this animation, we can see the infection spread dramatically at 0:53 seconds (half way) into the video.
                 As the video continues, we see the infection recede back to the United States, its first reported activity.</p>
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe width="1280" height="720" src="http://www.youtube.com/embed/shLytRW_lBo" 
-                    frameborder="0" allowfullscreen></iframe>
-                </div>
-                <br/>
+                <video class="video-js vjs-default-skin img img-responsive" controls preload="none" width="853" height="480" data-setup="{}">
+                    <source src="animations/30minDecay.mp4" type='video/mp4' />
+                    <source src="animations/30minDecay.webm" type='video/webm' />
+                    <p class="vjs-no-js">To view this video please enable JavaScript, 
+                    and consider upgrading to a web browser that 
+                        <a href="http://videojs.com/html5-video-support/" target="_blank">
+                            supports HTML5 video
+                        </a>
+                    </p>
+
+                </video>
 
                 <h4>60 minute Interval</h4>
                 <p>This animation presents the same information as the previous video but much quicker. We can see the infection explode in activity and again recede back to the left side of the map.</p>
-                <div class="embed-responsive embed-responsive-16by9">
-                <iframe width="1280" height="720" src="http://www.youtube.com/embed/1A23cPnhjmY?hd=1&vq=hd1080"
-                    frameborder="0" allowfullscreen></iframe>
-                </div>
+                <video class="video-js vjs-default-skin img img-responsive" controls preload="none" width="853" height="480" data-setup="{}">
+                    <source src="animations/HourDecay.mp4" type='video/mp4' />
+                    <source src="animations/HourDecay.webm" type='video/webm' />
+                    <p class="vjs-no-js">To view this video please enable JavaScript, 
+                    and consider upgrading to a web browser that 
+                        <a href="http://videojs.com/html5-video-support/" target="_blank">
+                            supports HTML5 video
+                        </a>
+                    </p>
+
+                </video>
                 <br/>
         </div>
 
@@ -117,6 +174,10 @@
 
               ga('create', 'UA-54182705-1', 'auto');
               ga('send', 'pageview');
+        </script>
+        <script src="video-js/video.js"></script>
+        <script>
+            videojs.options.flash.swf = "video-js.swf"
         </script>
 
     </body>

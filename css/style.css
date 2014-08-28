@@ -4,3 +4,10 @@
 }
 
 .gallery_title { text-transform:capitalize; }
+
+.divider {
+    width:50%;
+    height:1px;
+    border-bottom:1px dotted #ccc;
+    margin:30px auto 20px;
+}

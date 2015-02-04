@@ -11,3 +11,12 @@
     border-bottom:1px dotted #ccc;
     margin:30px auto 20px;
 }
+
+img#poster-image {
+    padding:30px 0px 10px;
+}
+
+#poster-caption {
+    margin:10px 0px 30px;
+    padding-bottom:10px;
+}
